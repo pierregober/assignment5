@@ -33,7 +33,7 @@ function GuessApp() {
   }, [stats.correct]);
 
   function guessHandler() {
-    if (guess == num) {
+    if (Number(guess) === num) {
       setMessage("Wow you got it! Go ahead the guess the next number!");
       updater("correct");
     }
