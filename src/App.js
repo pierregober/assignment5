@@ -1,6 +1,6 @@
 import "./App.css";
 import GuessApp from "./components/GuessApp";
-import { BrowserRouter, Routes, Route, Switch, Router } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Profile from "./components/Profile";
 
 function App() {
